@@ -19,7 +19,7 @@
 
 				var return_to = getQueryParam('return_to', 'pebblejs://close#');
 				console.log(return_to + encodeURIComponent($("#students").val()));
-				//document.location = return_to + encodeURIComponent($("#students").val());
+				document.location = return_to + encodeURIComponent($("#students").val());
 
 			}
 		</script>
@@ -35,6 +35,6 @@ Student O'Student
 James Bond III
 		</textarea>
 
-		<button onclick="doSubmit()">Save Classes</button>
+		<button onClick="doSubmit()">Save Classes</button>
 	</body>
 </html>
